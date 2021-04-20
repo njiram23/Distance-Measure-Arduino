@@ -62,7 +62,7 @@ void setup()
      lcd.print(" cm");
      delay(dt);
      lcd.clear();
-   
+   //The if-else if statements below determine which pin will produce power to a LED if the target is getting closer to the sensor. 
    if ( Afstand <= A)
    {
     digitalWrite (6, HIGH);
